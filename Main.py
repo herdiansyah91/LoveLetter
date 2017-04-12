@@ -1,13 +1,11 @@
-for letter in "Codecademy":
-    print letter
+import Testing
 
-# Empty lines to make the output pretty
-print
-print
+def penjumlahan (pertama, kedua):
+    total = pertama + kedua
+    return total
 
-word = "Programming is fun!"
+def jalanin (pertama, kedua):
+    return Testing.jalanin(pertama, kedua)
 
-for letter in word:
-    # Only print out the letter i
-    if letter == "i":
-        print letter
+
+print (jalanin(1, 2))
